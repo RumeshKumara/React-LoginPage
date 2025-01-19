@@ -1,8 +1,7 @@
 "'use client'"
 
-import { useState } from "'react'"
-import { motion } from "'framer-motion'"
-
+import { useState } from "react"
+import { motion } from "framer-motion"
 export default function Newsletter() {
   const [email, setEmail] = useState("''")
   const [isSubmitted, setIsSubmitted] = useState(false)

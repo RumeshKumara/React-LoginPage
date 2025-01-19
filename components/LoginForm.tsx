@@ -1,10 +1,9 @@
 "'use client'"
 
-import { useState } from "'react'"
-import { motion } from "'framer-motion'"
-import { FaEnvelope, FaLock, FaGoogle, FaGithub } from "'react-icons/fa'"
-import Link from "'next/link'"
-
+import { useState } from "react"
+import { motion } from "framer-motion"
+import { FaEnvelope, FaLock, FaGoogle, FaGithub } from "react-icons/fa"
+import { Link } from "lucide-react"
 export default function LoginForm() {
   const [email, setEmail] = useState("''")
   const [password, setPassword] = useState("''")
@@ -80,7 +79,7 @@ export default function LoginForm() {
         </div>
       </div>
       <p className="mt-8 text-center text-gray-600">
-        Don't have an account?{"'"}
+        Don&#39;t have an account?{"'"}
         <Link href="/signup" className="text-indigo-600 hover:underline">
           Sign up
         </Link>

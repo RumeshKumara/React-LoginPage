@@ -1,6 +1,5 @@
-import LoginForm from "'@/components/LoginForm'"
-import { Metadata } from "'next'"
-
+import LoginForm from "'../components/LoginForm'"
+import { Metadata } from "next"
 export const metadata: Metadata = {
   title: "'Login | Modern App'",
   description: "'Login to access your account'",

@@ -1,9 +1,7 @@
 "'use client'"
-
-import { motion } from "'framer-motion'"
-import { useState } from "'react'"
-import { FaPlay } from "'react-icons/fa'"
-
+import { motion } from "framer-motion"
+import { useState } from "react"
+import { FaPlay } from "react-icons/fa"
 const vlogPosts = [
   { id: 1, title: "'My First Vlog'", thumbnail: "'/placeholder.svg?height=200&width=300'" },
   { id: 2, title: "'Travel Adventures'", thumbnail: "'/placeholder.svg?height=200&width=300'" },

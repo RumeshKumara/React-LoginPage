@@ -1,10 +1,10 @@
 "'use client'"
 
-import { useState } from "'react'"
-import { motion } from "'framer-motion'"
-import Link from "'next/link'"
-import { FaBars, FaTimes } from "'react-icons/fa'"
-
+import { useState } from "react"
+import { motion } from "framer-motion"
+import { Link } from "lucide-react"
+import { FaBars, FaTimes } from "react-icons/fa"
+ 
 const menuItems = [
   { name: "'Home'", href: "'/'" },
   { name: "'Vlogs'", href: "'/vlogs'" },
